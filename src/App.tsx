@@ -29,12 +29,12 @@ function App() {
           className="widget-container regular-gamemodes"
         >
           <iframe
+            width={468}
             src="https://fortnitejp.news/widget.html?account_id=640f135544834b249f2805a8d14d1a0b&ranking_type=ranked-br&language=en&gradient_start=%23202377&gradient_end=%23723FBF&color=%23FFFFFF"
-            width={450}
           ></iframe>
           <iframe
+            width={468}
             src="https://fortnitejp.news/widget.html?account_id=640f135544834b249f2805a8d14d1a0b&ranking_type=ranked-zb&language=en&gradient_start=%23202377&gradient_end=%23723FBF&color=%23FFFFFF"
-            width={450}
           ></iframe>
         </motion.div>
         <motion.div
@@ -43,12 +43,12 @@ function App() {
           className="widget-container limited-gamemodes"
         >
           <iframe
+            width={468}
             src="https://fortnitejp.news/widget.html?account_id=640f135544834b249f2805a8d14d1a0b&ranking_type=ranked_blastberry_build&language=en&gradient_start=%23202377&gradient_end=%23723FBF&color=%23FFFFFF"
-            width={450}
           ></iframe>
           <iframe
+            width={468}
             src="https://fortnitejp.news/widget.html?account_id=640f135544834b249f2805a8d14d1a0b&ranking_type=ranked_blastberry_nobuild&language=en&gradient_start=%23202377&gradient_end=%23723FBF&color=%23FFFFFF"
-            width={450}
           ></iframe>
         </motion.div>
       </div>

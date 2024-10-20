@@ -9,7 +9,10 @@ h1 {
 
 .widget-container {
   display: flex;
-  gap: 8px;
+}
+
+.widget-container > iframe:last-child {
+  margin-left: -14px;
 }
 
 iframe {
@@ -19,4 +22,9 @@ iframe {
 .animation-container {
   height: 150px;
   overflow: hidden;
+}
+
+#root {
+  display: flex;
+  justify-content: start;
 }
