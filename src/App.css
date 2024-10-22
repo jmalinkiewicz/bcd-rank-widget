@@ -11,10 +11,6 @@ h1 {
   display: flex;
 }
 
-.widget-container > iframe:last-child {
-  margin-left: -14px;
-}
-
 iframe {
   border: 0;
 }
