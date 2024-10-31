@@ -18,7 +18,7 @@ function App() {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setDisplayedGamemode(displayedGamemode < 4 ? displayedGamemode + 1 : 0);
+      setDisplayedGamemode(displayedGamemode < 3 ? displayedGamemode + 1 : 0);
     }, 10000);
 
     return () => clearInterval(interval);
@@ -75,18 +75,6 @@ function App() {
           <iframe
             width={468}
             src="https://fortnitejp.news/widget.html?account_id=640f135544834b249f2805a8d14d1a0b&ranking_type=ranked_blastberry_nobuild&language=en&gradient_start=%23202377&gradient_end=%23723FBF&color=%23FFFFFF"
-          ></iframe>
-        </motion.div>
-        <motion.div
-          animate={{
-            y: displayedGamemode === 4 ? -600 : calculateYPosition(),
-          }}
-          transition={tranistion}
-          className="widget-container"
-        >
-          <iframe
-            width={468}
-            src="https://fortnitejp.news/widget.html?account_id=640f135544834b249f2805a8d14d1a0b&ranking_type=delmar-competitive&language=en&gradient_start=%23202377&gradient_end=%23723FBF&color=%23FFFFFF"
           ></iframe>
         </motion.div>
       </div>
