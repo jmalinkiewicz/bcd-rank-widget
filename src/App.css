@@ -17,7 +17,7 @@ iframe {
 
 .animation-container {
   height: 150px;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 #root {
